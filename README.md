@@ -9,17 +9,23 @@ Esta aplicação Node.js + Express.js foi criada para fins de avaliação para a
 git clone https://github.com/Botegaa/aplicacao-devops.git
 ```
 
-2. Instale as dependências.
+2. Instale o express.
+```bash
+cd aplicacao-devops
+npm install express
+```
+
+3. Instale as dependências.
 ```bash
 npm install
 ```
 
-3. Inicie a aplicação.
+4. Inicie a aplicação.
 ```bash
 node src/index.js
 ```
 
-4. Acesse a aplicação no navegador utilizando os seguintes endpoints:
+5. Acesse a aplicação no navegador utilizando os seguintes endpoints:
     - https://localhost:3000/ 
     - https://localhost:3000/integrantes 
 
