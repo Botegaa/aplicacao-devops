@@ -11,3 +11,15 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
+
+const integrantes = {
+  integrantes: [
+    { nome: "Pedro Henrique Botega" },
+    { nome: "Isabel de Sá Pichini" },
+   
+  ]
+};
+
+app.get('/integrantes', (req, res) => {
+  res.json(integrantes);
+});
