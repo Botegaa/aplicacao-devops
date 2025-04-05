@@ -11,7 +11,6 @@ git clone https://github.com/Botegaa/aplicacao-devops.git
 
 2. Instale o express.
 ```bash
-cd aplicacao-devops
 npm install express
 ```
 
